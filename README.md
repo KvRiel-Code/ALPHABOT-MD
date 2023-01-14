@@ -1,3 +1,5 @@
+## BACA DULU BANG
+
 # Thanks to
 <a href="https://github.com/DikaArdnt"><img src="https://github.com/DikaArdnt.png?size=100" width="100" height="100"></a> | [![NURUTOMO](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo) 
 ---|---
