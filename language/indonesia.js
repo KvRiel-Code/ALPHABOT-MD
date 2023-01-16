@@ -626,13 +626,12 @@ exports.KickAh = (gc) => {
     return `Sepertinya kamu mengirimkan link group ini, kamu tidak akan di keluarkan`
     }
 /////////
-exports.gcOp = () => {
-    return `✅ Grup Berhasil Dibuka Oleh Admin Grup..`
+exports.gcOp = (m) => {
+    return `✅ Grup Berhasil Dibuka Oleh @${m.sender.split`@`[0]}. `
 }
-exports.gcCls = () => {
-    return `✅ Grup Berhasil Ditutup Oleh Admin Grup.`
+exports.gcCls = (m) => {
+    return `✅ Grup Berhasil Ditutup Oleh @${m.sender.split`@`[0]}. `
 }
-
 /////////
 exports.private = () =>{
 	return`Fitur hanya bisa di gunakan di private chat`
@@ -1733,6 +1732,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 │○ Nurutomo
 │○ Rashid
 │○ ZeeoneOfc
+│○ KvRiel-Code
 │○ Penyedia Module
 ╰❒ And All Support
     `
@@ -1750,7 +1750,7 @@ exports.rules = (prefix) => {
 ➡️ Mungkin dipengaruhi oleh jaringan, signal, banned oleh Whatsapp dan beberapa asalan.
 
 🗯️ Dimana saya bisa mendapatkan Script dari bot ini ?
-➡️ Script ini bisa kalian dapatkan di github
+➡️ Script ini bisa kalian dapatkan di Github
 
 🗯️ Boleh saya menambah ke grup?
 ➡️ Untuk itu tergantung dari owner bot sendiri
@@ -2455,6 +2455,7 @@ exports.tqto = () =>{
 │○ Nurutomo
 │○ Rashid
 │○ ZeeoneOfc
+│○ KvRiel-Code
 │○ Penyedia Module
 ╰❒ And All Support
 `

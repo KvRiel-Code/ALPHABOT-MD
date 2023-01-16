@@ -635,7 +635,12 @@ exports.KickAh = (gc) => {
     return `Looks like you sent this group link, you won't be kicked out`
     }
 /////////
-
+exports. gcOp = (m) => {
+    return `✅ Group Opened Successfully By @${m.sender.split`@`[0]}. `
+}
+exports. gcCls = (m) => {
+    return `✅ Group Closed Successfully By @${m.sender.split`@`[0]}. `
+}
 /////////
 exports.private = () =>{
 	return`The feature can only be used in private chat`
@@ -1756,7 +1761,7 @@ exports.rules = (prefix) => {
 ➡️ Mungkin dipengaruhi oleh jaringan, signal, banned oleh Whatsapp dan beberapa asalan.
 
 🗯️ Dimana saya bisa mendapatkan Script dari bot ini ?
-➡️ Script ini bisa kalian dapatkan di github
+➡️ Script ini bisa kalian dapatkan di Github
 
 🗯️ Boleh saya menambah ke grup?
 ➡️ Untuk itu tergantung dari owner bot sendiri

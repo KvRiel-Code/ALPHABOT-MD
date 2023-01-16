@@ -623,7 +623,12 @@ exports.KickAh = (gc) => {
     return `Parece que enviaste el enlace de este grupo, no serás expulsado`
     }
 /////////
-
+exports.gcOp = (m) => {
+    return `✅ Grupo abierto con éxito por el @${m.sender.split`@`[0]}. `
+}
+exports.gcCls = (m) => {
+    return `✅ Grupo cerrado con éxito por el @${m.sender.split`@`[0]}. `
+}
 /////////
 exports.private = () =>{
 	return`La función solo se puede usar en el chat privado.`
@@ -1726,6 +1731,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 │○ Nurutomo
 │○ Rashid
 │○ ZeeoneOfc
+│○ KvRiel-Code
 │○ Penyedia Module
 ╰❒ And All Support
     `
@@ -1743,7 +1749,7 @@ exports.rules = (prefix) => {
 ➡️ Puede verse afectado por la red, la señal, prohibido por Whatsapp y algunas razones.
 
 🗯️ ¿Dónde puedo obtener el script de este bot?
-➡️ Puede obtener este script en github
+➡️ Puede obtener este script en Github
 
 🗯️ ¿Puedo agregar al grupo?
 ➡️ Para eso depende del propietario del bot.
@@ -2449,6 +2455,7 @@ exports.tqto = () =>{
 │○ Nurutomo
 │○ Rashid
 │○ ZeeoneOfc
+│○ KvRiel-Code
 │○ Penyedia Module
 ╰❒ And All Support
 `
